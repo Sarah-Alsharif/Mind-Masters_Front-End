@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Darker+Grotesque:wght@400;700&family=Podkova&display=swap');
+
+
+body {
+     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+     background-size: 400% 1000%;
+     min-height: 100vh;
+     animation: gradient 15s ease infinite;
+   
+   }
+   
+@keyframes gradient {
+     0% {
+         background-position: 0% 50%;
+     }
+     50% {
+         background-position: 100% 50%;
+     }
+     100% {
+         background-position: 0% 50%;
+     }
+   }
+
+
+.home-title{
+  color: white;
+  font-size: 3.5rem;
+  text-align: center;
+  letter-spacing: 3px;
+  font-family: 'Coda Caption', sans-serif;
+}
+
+   
+.btn-div{
+    text-align: center;
+}
+
+.btn-div button{
+  width: 160px !important;
+  margin:20px 10px  !important;
+  color: #591BC5  !important;
+  font-size: 17px  !important;
+  border:1px solid #EFEEF5  !important;
+  font-weight: 500  !important;
+  background: #EFEEF5 !important;
+  border-radius: 20px !important;
+  padding: 10px  !important;
+  cursor: pointer !important;
+  transition: .3s  !important;
+  font-family: 'Coda Caption', sans-serif !important;
+  font-family: 'Darker Grotesque', sans-serif !important;
+  font-family: 'Podkova', serif !important;
+}
+
+
+.btn-div button:hover{
+    border-radius: 0 !important;
+  }
+
+
+
+
+  /**************************/
+  /* profile */
+  
+  .profileImg-col{
+     
+    border: 3px solid #591BC5 ;
+    display: flex !important;
+    align-items:center !important;
+    flex-direction: column !important;
+    margin: 0 10px !important;
+
+  }
+
+
+  .profile-img{
+    width:250px;
+    height: 240px;
+  }
+
+
+  .profileInfo-col{
+    border: 3px solid #591BC5  !important;
+    margin: 10px 10px !important;
+    padding: 50px 20px !important;
+  }
+
+
+
+  .passwordChange-col{   
+    background-color:white  !important;
+  }
+
+  .userQuiz-card{
+    border: 1px solid #591BC5;
+    text-align: center;
+  }
+
+  .delete-btn{
+    width: 160px !important;
+    margin:20px 10px  !important;
+    color: black  !important;
+    font-size: 17px  !important;
+    border:1px solid rgb(150, 2, 2) !important;
+    font-weight: 500  !important;
+    border-radius: 20px !important;
+    padding: 10px  !important;
+    cursor: pointer !important;
+    transition: .3s  !important;
+    font-family: 'Coda Caption', sans-serif !important;
+    font-family: 'Darker Grotesque', sans-serif !important;
+    font-family: 'Podkova', serif !important;
+  }
+
+  .delete-btn:hover{
+    border-radius: 0 !important;
+    color: white !important;
+    background-color: rgb(150, 2, 2);
+  }
+
+
+
+
+  @media only screen and (min-width: 375px) {
+
+    .profile-boutton{
+      margin-top: 10px !important;
+    }
+  
+  }
+
+
+  @media only screen and (min-width: 768px) {
+
+    .profile-boutton{
+      margin-top: 23px !important;
+    }
+  
+  }
+
+
+
+

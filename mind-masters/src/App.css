@@ -1,0 +1,34 @@
+
+.btn-div{
+  text-align: center;
+}
+
+#RegistrationGridCoulmn{
+  box-shadow: 0 0 3px #888888;
+  padding: 0;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+ 
+}
+
+
+#contentContainer{
+  margin: 2% 3% 2% 3%;
+  padding: 20px;
+}
+
+
+#menu{
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+
+.Blue{
+  background: white;
+}
+
+.white{
+  background: white;
+}
+

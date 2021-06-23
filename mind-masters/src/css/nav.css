@@ -1,0 +1,37 @@
+.nav-div{
+    background: white!important;
+}
+
+.nav-link{
+   color: #a77cf2  !important;
+    
+}
+
+.nav-item{
+    padding: 0.5rem 0.5rem !important;
+}
+
+.nav-item::before{
+    width:0 !important;
+}
+
+
+.nav-menu{
+    color: #a77cf2  !important;
+}
+
+/* ******************************/
+
+/* footer component */
+.footer-1 {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    color: #a77cf2;
+    padding: 10px;
+    background: white!important; 
+}
+
